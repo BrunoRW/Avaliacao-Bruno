@@ -1,0 +1,16 @@
+@import"https://fonts.googleapis.com/css2?family=Alata&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Alata;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    --default: rgb(19, 194, 121);
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}

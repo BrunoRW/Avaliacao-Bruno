@@ -1,0 +1,43 @@
+#header{
+    position: fixed;
+    width: calc(100% - 50px);
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    align-items: center;
+    box-shadow: 0 0 15px 0 #dedede80;
+    max-width: 800px;
+}
+#h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    color: var(--default);
+    font-size: 20px;
+    font-family: Pacifico;
+    
+}
+.link-h{
+    margin-right: 15px;
+    color: black;
+    display: block;
+    width: fit-content;
+}
+.cadastrar{
+    background-color: var(--default);
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: white;
+}
+.login{
+    border: 2px solid var(--default);
+    padding: 3px 15px;
+    border-radius: 50px;
+}

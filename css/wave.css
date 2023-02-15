@@ -1,0 +1,45 @@
+.wave {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100vw;
+    height: 118px;
+    align-items: flex-end;
+  }
+  
+  .svg {
+    width: 100vw;
+  }
+  
+  .waves1,
+  .waves2,
+  .waves3 {
+    width: 100vw;
+  }
+  
+  .waves1 {
+    fill: #13c279;
+    animation: wasv1 infinite 10s ease-in-out alternate;
+  }
+  
+  .waves2 {
+    fill: #66daaba6;
+    animation: wasv1 infinite 12s 1s ease-in-out alternate;
+  }
+  
+  .waves3 {
+    fill: white;
+    animation: wasv1 infinite 8s ease-in-out alternate;
+  }
+  
+  @keyframes wasv1 {
+    0% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(-8%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }

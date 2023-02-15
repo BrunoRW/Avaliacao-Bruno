@@ -1,0 +1,23 @@
+.info-s{
+    width: calc(100% - 40px);
+    max-width: 800px;
+    margin: 100px auto 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-s{
+    text-align: center;
+    color: gray;
+    margin: 30px 0;
+}
+.txt-s{
+    font-size: 18px;
+    max-width: 600px;
+    text-align: center;
+}
+.img-s{
+    max-width: 300px;
+    margin: auto;
+}
