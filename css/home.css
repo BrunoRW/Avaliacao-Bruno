@@ -1,6 +1,6 @@
 #initial{
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
     position: relative;
     background: #fafafa;
@@ -16,6 +16,9 @@
     margin: auto;
     max-width: 800px;
     margin-top: 80px;
+    height: fit-content;
+    min-height: calc(100% - 200px);
+    padding-bottom: 118px;
 }
 
 .info-txt{
@@ -61,4 +64,32 @@
 }
 #wd{
     transition: .5s;
+}
+
+@media only screen and (max-width: 600px){
+    .all-h{
+        flex-direction: column;
+    }
+    .info-txt{
+        width: 100%;
+    }
+    #info-img{
+        width: 50%;
+    }
+    .info-txt{
+        text-align: center;
+    }
+    .saiba{
+        margin: 20px auto;
+    }
+    .txt-in{
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .link-h{
+        display: none!important;
+    }
 }

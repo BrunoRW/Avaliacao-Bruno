@@ -35,9 +35,12 @@
     padding: 5px 15px;
     border-radius: 50px;
     color: white;
+    display: block!important;
+
 }
 .login{
     border: 2px solid var(--default);
     padding: 3px 15px;
     border-radius: 50px;
+    display: block!important;
 }
