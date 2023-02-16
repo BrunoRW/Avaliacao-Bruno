@@ -22,7 +22,8 @@
     color: var(--default);
     font-size: 20px;
     font-family: Pacifico;
-    
+    animation: logoAni 3s ease-in-out infinite ;
+    display: block;
 }
 .link-h{
     margin-right: 15px;
@@ -43,4 +44,12 @@
     padding: 3px 15px;
     border-radius: 50px;
     display: block!important;
+}
+
+
+
+@media only screen and (max-width: 450px){
+    .link-h{
+        display: none;
+    }
 }

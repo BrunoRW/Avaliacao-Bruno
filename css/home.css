@@ -3,7 +3,7 @@
     min-height: 80vh;
     display: flex;
     position: relative;
-    background: #fafafa;
+    background: #f4f4f4;
 }
 #wd{
     color: var(--default);
@@ -85,11 +85,5 @@
     .txt-in{
         max-width: 300px;
         margin: auto;
-    }
-}
-
-@media only screen and (max-width: 450px){
-    .link-h{
-        display: none!important;
     }
 }

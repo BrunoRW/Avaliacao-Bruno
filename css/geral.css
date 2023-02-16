@@ -11,6 +11,10 @@
     overflow-x: hidden;
 }
 
+body{
+    padding-bottom: 50px;
+}
+
 ::-webkit-scrollbar{
     width: 0;
 }

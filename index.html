@@ -15,7 +15,7 @@
         <div class="all-h">
             <div class="info-txt">
                 <h1 class="txt-in">Gerencie suas <span id="wd">finanças</span> de forma fácil e segura.</h1>
-                <a href="#" class="saiba">Saiba mais</a>
+                <a href="sobre.html" class="saiba">Saiba mais</a>
             </div>
             <div id="info-img">
 
@@ -48,9 +48,11 @@
     <main id="main">
         <h2 class="title-main">Conheça mais</h2>
         <p class="txt-main">Nosso banco online oferece uma experiência bancária conveniente e segura para nossos clientes. Com nossa plataforma fácil de usar, você pode gerenciar suas finanças pessoais, fazer transferências, pagar contas e muito mais, tudo a partir do conforto de sua própria casa.</p>
+        <a class="saiba" href="sobre.html">Sobre o ambiente</a>
     </main>
 
     <script>
+        // nao funciona ??
         const wd = document.getElementById("wd");
 
         let pl = ["finanças", "contas", "faturas"];
@@ -62,17 +64,19 @@
             if(tm >= pl.length - 1){
                 tm = 0;
             } 
-            tm++;
             console.log(wd, pl[tm], tm)
-
+            
             wd.style.opacity = "0";
             setTimeout(()=>{
                 wd.innerText = pl[tm]
                 wd.style.opacity = "1";
-
+                
+                console.log(wd, pl[tm], tm)
             },700)
 
-
+            
+            tm++;
+            
         },3000)
     </script>
     <script>
