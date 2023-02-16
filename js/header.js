@@ -11,6 +11,7 @@ get.send();
 get.onload = () => {
     if(get.status == 200){
         let newH = get.responseText;
+        console.log("🚀 ~ file: header.js:14 ~ responseText", responseText)
         console.log(newH)
 
         body.innerHTML += newH;

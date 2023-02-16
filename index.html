@@ -78,19 +78,24 @@
             tm++;
             
         },3000)
+
     </script>
     <script>
         const imginfo = document.getElementById("info-img")
-        let gtt = new XMLHttpRequest();
-        gtt.open("GET", "../img/thumb.svg");
-        gtt.send();
 
-        gtt.onload = () => {
-            if(gtt.status == 200){
-                let newH = gtt.responseText;
-                console.log(newH)
+        window.onload = () => {
+            let gtt = new XMLHttpRequest();
+            gtt.open("GET", "../img/thumb.svg");
+            gtt.send();
 
-                imginfo.innerHTML += newH;
+            gtt.onload = () => {
+                if(gtt.status == 200){
+                    let newH = gtt.responseText;
+                    console.log(newH)
+                    setTimeout(()=>{
+                        imginfo.innerHTML += newH;
+                    })
+                }
             }
         }
     </script>
