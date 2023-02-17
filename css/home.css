@@ -49,7 +49,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    position: absolute;
 }
 .title-main{
     text-align: center;
